@@ -8,7 +8,8 @@ categories: jekyll update
 ## Cypress 101
 Cypress is a friendly, frontend testing tool that resembles legacy testing tools like Selenium. It can test anything that runs in a browser. Published tests may be small and omit any dependencies.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+### What does Cypress Offer?
+Cypress comes complete with a built-in test runner, a Cloud environment, video recordings and test replays to closely examine reported failures.
 
 Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
