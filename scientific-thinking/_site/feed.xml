@@ -1,17 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-09T16:19:34-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Scientific Thinking</title><subtitle>A place to publish my professional work. Topics include operator&apos;s guides, testing how-to&apos;s, and other technical writing.</subtitle><entry><title type="html">Cypress Operator’s Guide</title><link href="http://localhost:4000/jekyll/update/2024/09/09/cypress-operator's-guide.html" rel="alternate" type="text/html" title="Cypress Operator’s Guide" /><published>2024-09-09T11:18:00-07:00</published><updated>2024-09-09T11:18:00-07:00</updated><id>http://localhost:4000/jekyll/update/2024/09/09/cypress-operator&apos;s-guide</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/09/09/cypress-operator&apos;s-guide.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-09T16:40:46-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Scientific Thinking</title><subtitle>A place to publish my professional works. Topics include operator&apos;s guides, testing how-to&apos;s, and other technical writing.</subtitle><entry><title type="html">Cypress Operator’s Guide</title><link href="http://localhost:4000/jekyll/update/2024/09/09/cypress-operator's-guide.html" rel="alternate" type="text/html" title="Cypress Operator’s Guide" /><published>2024-09-09T11:18:00-07:00</published><updated>2024-09-09T11:18:00-07:00</updated><id>http://localhost:4000/jekyll/update/2024/09/09/cypress-operator&apos;s-guide</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/09/09/cypress-operator&apos;s-guide.html"><![CDATA[<h2 id="cypress-101">Cypress 101</h2>
+<p>Cypress is a friendly, frontend testing tool that resembles legacy testing tools like Selenium. It can test anything that runs in a browser. Published tests may be small and omit any dependencies.</p>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<h3 id="what-does-cypress-offer">What does Cypress Offer?</h3>
+<p>Cypress comes complete with a built-in test runner, a Cloud environment, video recordings and test replays to closely examine reported failures.</p>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<h3 id="test-replays">Test Replays</h3>
+<p>With Test Replay, Cypress Cloud regenerates the entire UI for viewing the run and debugging CI failures. You can:</p>
+<ul>
+  <li>watch the simulated version of the app in realtime</li>
+  <li>time travel, within the frontend simulator, second by second</li>
+  <li>pause at the point-in-time where your test failed</li>
+</ul>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>If your test results are recorded to Cypress Cloud you do not have to worry about manually reproducing bugs. You can replay the failure directly in the Cloud.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<h3 id="cypress-and-xpaths">Cypress and Xpaths</h3>
+<p>Xpaths are usually long, “stringified” locators used to traverse the DOM tree that composes your website. The problem is that they are highly sensitive to change, meaning that the removal of one node in the DOM tree will likely result in an invalid xpath. This will immediately fail your tests.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p><strong>Cypress does not natively support xpaths.</strong> The <code class="language-plaintext highlighter-rouge">cypress-xpath</code> npm package is no longer maintained by the author and is not Cypress-supported.
+Refrain from using xpaths when possible.
+Instead use chains composed of Cypress methods to achieve the desired result. Read more about Cypress chains in my Cheatsheet.</p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<h3 id="cypress-and-dependencies">Cypress and Dependencies</h3>
+<p>Cypress tests are most effective when written with little to no dependencies between. By default, Cypress resets state between tests, unless otherwise specified in the Cypress config file. Dependencies between tests create distance between tests and assertions. The closer the assertion lives to its test, the faster the resolution.</p>
+
+<p>💡 <strong>Protip</strong> state is reset between Cypress tests by default (I.e. between it blocks). To offset, set testIsolation: false in your Cypress config file.</p>
+
+<h3 id="cypress-chains">Cypress Chains</h3>
+<p>Cypress chains are commands strung together to execute sequentially. Chains are a more readable and reliable alternative to using xpath.</p>
+
+<h3 id="cypress-and-iframes">Cypress and iFrames</h3>
+<p>There is no easy application of working with iframes in Cypress. Most of the cy DOM traversal commands hard stop the moment they hit <code class="language-plaintext highlighter-rouge">#document</code> node inside the iframe. Working with iframes will require some custom code.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Cypress 101 Cypress is a friendly, frontend testing tool that resembles legacy testing tools like Selenium. It can test anything that runs in a browser. Published tests may be small and omit any dependencies.]]></summary></entry></feed>
