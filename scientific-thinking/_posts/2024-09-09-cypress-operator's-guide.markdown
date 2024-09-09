@@ -11,9 +11,13 @@ Cypress is a friendly, frontend testing tool that resembles legacy testing tools
 ### What does Cypress Offer?
 Cypress comes complete with a built-in test runner, a Cloud environment, video recordings and test replays to closely examine reported failures.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### Test Replays
+With Test Replay, Cypress Cloud regenerates the entire UI for viewing the run and debugging CI failures. You can:
+- watch the simulated version of the app in realtime
+- time travel, within the frontend simulator, second by second
+- pause at the point-in-time where your test failed
 
-Jekyll also offers powerful support for code snippets:
+If your test results are recorded to Cypress Cloud you do not have to worry about manually reproducing bugs. You can replay the failure directly in the Cloud.
 
 {% highlight ruby %}
 def print_hi(name)
