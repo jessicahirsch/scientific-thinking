@@ -19,16 +19,20 @@ With Test Replay, Cypress Cloud regenerates the entire UI for viewing the run an
 
 If your test results are recorded to Cypress Cloud you do not have to worry about manually reproducing bugs. You can replay the failure directly in the Cloud.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Cypress and Xpaths
+Xpaths are usually long, “stringified” locators used to traverse the DOM tree that composes your website. The problem is that they are highly sensitive to change, meaning that the removal of one node in the DOM tree will likely result in an invalid xpath. This will immediately fail your tests.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+**Cypress does not natively support xpaths.** The `cypress-xpath` npm package is no longer maintained by the author and is not Cypress-supported.
+Refrain from using xpaths when possible.
+Instead use chains composed of Cypress methods to achieve the desired result. Read more about Cypress chains in my Cheatsheet.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+### Cypress and Dependencies
+Cypress tests are most effective when written with little to no dependencies between. By default, Cypress resets state between tests, unless otherwise specified in the Cypress config file. Dependencies between tests create distance between tests and assertions. The closer the assertion lives to its test, the faster the resolution.
+
+💡 **Protip** state is reset between Cypress tests by default (I.e. between it blocks). To offset, set testIsolation: false in your Cypress config file.
+
+### Cypress Chains
+Cypress chains are commands strung together to execute sequentially. Chains are a more readable and reliable alternative to using xpath.
+
+### Cypress and iFrames
+There is no easy application of working with iframes in Cypress. Most of the cy DOM traversal commands hard stop the moment they hit `#document` node inside the iframe. Working with iframes will require some custom code.
