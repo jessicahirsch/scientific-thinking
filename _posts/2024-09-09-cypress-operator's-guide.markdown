@@ -29,10 +29,10 @@ Instead use chains composed of Cypress methods to achieve the desired result. Re
 ### Cypress and Dependencies
 Cypress tests are most effective when written with little to no dependencies between. By default, Cypress resets state between tests, unless otherwise specified in the Cypress config file. Dependencies between tests create distance between tests and assertions. The closer the assertion lives to its test, the faster the resolution.
 
-💡 **Protip** state is reset between Cypress tests by default (I.e. between it blocks). To offset, set testIsolation: false in your Cypress config file.
+💡 **Protip** state is reset between Cypress tests by default (I.e. between it blocks). To offset, set `testIsolation: false` in your Cypress config file.
 
 ### Cypress Chains
 Cypress chains are commands strung together to execute sequentially. Chains are a more readable and reliable alternative to using xpath.
 
 ### Cypress and iFrames
-There is no easy application of working with iframes in Cypress. Most of the cy DOM traversal commands hard stop the moment they hit `#document` node inside the iframe. Working with iframes will require some custom code.
+There is no easy application of working with `iframes` in Cypress. Most of the cy DOM traversal commands hard stop the moment they hit `#document` node inside the `iframe`. Working with `iframes` will require some custom code.
