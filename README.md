@@ -5,3 +5,7 @@ Introducing Scientific Thinking, a professional blog to publish my written work.
 ### Run
 
 Run using `bundle exec jekyll serve` in the root directory.
+
+### Visit
+
+Visit the live site: https://jessicahirsch.github.io/Scientific-Thinking/
