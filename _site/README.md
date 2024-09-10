@@ -2,8 +2,6 @@
 
 Introducing Scientific Thinking, a professional blog to publish my written work. Topics include Operator's Guides, How-Tos and other stream of consciousness ideas.
 
-### Enter At
-`scientific-thinking` directory.
-
 ### Run
-Run using `bundle exec jekyll serve`.
+
+Run using `bundle exec jekyll serve` in the root directory.
