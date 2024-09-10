@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I once heard someone say, “science is the great equalizer.” When I began studying software engineering 7 years ago, after transitioning as a biology major and from within the sciences, I leaned on the scientific method to probe and engage with foreign topics, like Node.js debugging and cross-origin site errors. Computers have a science, after all.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Unknowingly, this intersection of scientific thinking has deep roots in sibling areas of engineering, like site reliability and DevOps. Perhaps that why I have found partnerships in SRE teams, whether by seeking out or happenstance. Quality engineering has indirect ties to Lean and continuous improvement practices. I enjoy applying these problem solving techniques as I build my work, skills and self in this field.
