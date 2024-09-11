@@ -19,6 +19,8 @@ With Test Replay, Cypress Cloud regenerates the entire UI for viewing the run an
 
 If your test results are recorded to Cypress Cloud you do not have to worry about manually reproducing bugs. You can replay the failure directly in the Cloud.
 
+![Test Replay Visual Guide]({{ site.baseurl }}/images/test-replay.png)
+
 ### Cypress and Xpaths
 Xpaths are usually long, “stringified” locators used to traverse the DOM tree that composes your website. The problem is that they are highly sensitive to change, meaning that the removal of one node in the DOM tree will likely result in an invalid xpath. This will immediately fail your tests.
 
