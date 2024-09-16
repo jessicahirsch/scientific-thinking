@@ -11,3 +11,6 @@ Unknown at the time, scientific thinking has deep roots in sibling areas of engi
 
 ## My Specialty
 I specialize in designing and building custom automation frameworks that monitor hero, revenue-generating features for companies. My contributions have yielded tangible outcomes like actual money recouped for violated SLAs. As a Cypress ambassador, lifelong learner and Quality Engineering specialist, I’m committed to building quality all the way through the SDLC and fostering a high  esteem workplace.
+
+## More About this Space
+I enjoy thinking and writing about engineering, specifically engineering sub-topics like testing. In the future, I may write about topics beyond engineering that I'm passionate about, like cooking.
