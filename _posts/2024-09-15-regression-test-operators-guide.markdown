@@ -5,10 +5,6 @@ date:   2024-09-15 11:18:00 -0700
 categories: jekyll update
 ---
 
-## Plan
-
-### WHAT
-
 **Regression Testing in Theory**
 
 Regression testing evaluates if the system under test has regressed to a devolved, or more primitive, state following a release.
