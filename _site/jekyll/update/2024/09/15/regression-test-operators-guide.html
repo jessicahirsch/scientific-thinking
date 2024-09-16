@@ -60,6 +60,14 @@ In best practice, we test the entire system. Optimally, no change goes untested.
 
 <p><img src="/Scientific-Thinking/images/test-pyramid.png" alt="Test Replay Visual Guide" /></p>
 
+<p><strong>Test Scope</strong></p>
+
+<p>Regression tests hold the second-tier position at the top of the pyramid to suggest the space they ought to occupy. The higher the position, the less occupancy. That is meant to be an advisory.</p>
+
+<p>Depending on where they execute and what they execute on, regression tests are often large in scope. That is, there are many systems and many machines that must be functioning properly for the test to succeed. Otherwise the test may fail. And the assertion could be entirely unrelated. Thus, debugging difficulties.</p>
+
+<p>I’ve included an excellent diagram from <em>Software Engineering at Google, O’Reilly (2020)</em> that represents the growing complexity of regression tests from the Test Pyramid.</p>
+
   </div><a class="u-url" href="/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide.html" hidden></a>
 </article>
 
