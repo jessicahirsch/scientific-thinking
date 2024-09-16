@@ -40,3 +40,15 @@ When done well, they can operate in place of, or as a supplement to, a QA.
 **Test Cases**
 
 It is recommended that you write test cases in advance of automation. Preferably at the onset of a new project. Consult with the project’s owner. They tend to be the individuals deeply familiar with the intended behavior of the shippable code. Plain-text languages, like Gherkin, can help translate the language between product owner and engineer.
+
+**Gherkin**
+
+Gherkin is a popular language to write test cases, a personal favorite. Gherkin is a plain-text testing language in the behavior-driven style. It takes the the guesswork out of writing test cases by prompting you with a user, an action and an assertion. It reads naturally and yields a shorter time to automate.
+
+If you recall from Test Scope section, restricting test size becomes beneficial within regression tests. Gherkin is meant to be read naturally.
+
+**Given** _some condition_
+
+**When** _some action is taken_
+
+**Then** _there is expected behavior_
