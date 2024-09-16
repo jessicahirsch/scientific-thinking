@@ -36,3 +36,7 @@ The aim is for “quality all the way through.” In theory, we aim for _shifted
 
 Automated regression testing is arguably more repeatable and accurate than a Quality Assurance engineer manually testing your code.
 When done well, they can operate in place of, or as a supplement to, a QA.
+
+**Test Cases**
+
+It is recommended that you write test cases in advance of automation. Preferably at the onset of a new project. Consult with the project’s owner. They tend to be the individuals deeply familiar with the intended behavior of the shippable code. Plain-text languages, like Gherkin, can help translate the language between product owner and engineer.
