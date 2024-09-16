@@ -5,7 +5,7 @@ date:   2024-09-15 11:18:00 -0700
 categories: jekyll update
 ---
 
-**Regression Testing in Theory**
+## Regression Testing in Theory
 
 Regression testing evaluates if the system under test has regressed to a devolved, or more primitive, state following a release.
 In good practice, we test the changed area, or the code issued in the release.
@@ -24,7 +24,7 @@ I’ve included an excellent diagram from _Software Engineering at Google, O'Rei
 
 ![Test Scope, Software Engineering at Google (O’Reilly, 215, 2020)]({{ site.baseurl }}/images/test-scope.png)
 
-**Regression Testing in General Practice**
+## Regression Testing in General Practice
 
 The act of regression testing is the action of testing your subject against a set of expectations. Those expectations are ideally created by the product’s owner, who deeply understands the behavior that the subject ought to have.
 
@@ -37,7 +37,7 @@ The aim is for “quality all the way through.” In theory, we aim for _shifted
 Automated regression testing is arguably more repeatable and accurate than a Quality Assurance engineer manually testing your code.
 When done well, they can operate in place of, or as a supplement to, a QA.
 
-**Test Cases**
+### Test Cases
 
 It is recommended that you write test cases in advance of automation. Preferably at the onset of a new project. Consult with the project’s owner. They tend to be the individuals deeply familiar with the intended behavior of the shippable code. Plain-text languages, like Gherkin, can help translate the language between product owner and engineer.
 
@@ -62,3 +62,7 @@ If you recall from Test Scope section, restricting test size becomes beneficial 
 **And** _some additional action is taken_
 
 **Then** _there is expected behavior_
+
+### Test Conditions
+
+Before you publish your tests you must understand the testing conditions necessary to qualify your tests as complete and accurate. They may require a certain user type or user state. This depends entirely on the subject.
