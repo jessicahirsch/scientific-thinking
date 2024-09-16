@@ -27,3 +27,13 @@ Depending on where they execute and what they execute on, regression tests are o
 I’ve included an excellent diagram from _Software Engineering at Google, O'Reilly (2020)_ that represents the growing complexity of regression tests from the Test Pyramid.
 
 ![Test Scope, Software Engineering at Google (O’Reilly, 215, 2020)]({{ site.baseurl }}/images/test-scope.png)
+
+**Regression Testing in General Practice**
+
+The act of regression testing is the action of testing your subject against a set of expectations. Those expectations are ideally created by the product’s owner, who deeply understands the behavior that the subject ought to have.
+
+Perhaps you are accustomed to Quality Assurance engineers performing a regression test on your behalf. That is, once development is complete, testing your code against a set of acceptance criteria.
+
+In many cases, this is done manually, with the Quality Assurance engineer checking your work performs properly against rows of test cases issued by the product’s owner.
+
+The aim is for “quality all the way through.” In theory, we aim for _shifted-left_ testing such that we can go _without_ embedded Quality Assurance engineers. In practice, our regression testing happens at the end of the software development lifecycle (SDL), after the code has already been merged.
