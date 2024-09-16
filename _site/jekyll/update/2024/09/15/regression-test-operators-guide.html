@@ -109,6 +109,14 @@ When done well, they can operate in place of, or as a supplement to, a QA.</p>
 
 <p>Before you publish your tests you must understand the testing conditions necessary to qualify your tests as complete and accurate. They may require a certain user type or user state. This depends entirely on the subject.</p>
 
+<h3 id="page-object-model">Page Object Model</h3>
+
+<p>Regression test workspaces may be structured using the page object model. The model is a design pattern used to structure automated tests for web applications. Each web page in the application has a corresponding Page Class. These classes encapsulate the behavior of the web page.</p>
+
+<p>The elements that build the behavior are abstracted to corresponding files in the support directory. By centralizing locators within page classes, any changes to the UI structure can be managed more efficiently by updating the locators in one place.</p>
+
+<p>If you find yourself reusing elements in more than one test, it is best practice to abstract the locator into a key value pair in a <code class="language-plaintext highlighter-rouge">const</code> file.</p>
+
   </div><a class="u-url" href="/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide.html" hidden></a>
 </article>
 

@@ -66,3 +66,11 @@ If you recall from Test Scope section, restricting test size becomes beneficial 
 ### Test Conditions
 
 Before you publish your tests you must understand the testing conditions necessary to qualify your tests as complete and accurate. They may require a certain user type or user state. This depends entirely on the subject.
+
+### Page Object Model
+
+Regression test workspaces may be structured using the page object model. The model is a design pattern used to structure automated tests for web applications. Each web page in the application has a corresponding Page Class. These classes encapsulate the behavior of the web page.
+
+The elements that build the behavior are abstracted to corresponding files in the support directory. By centralizing locators within page classes, any changes to the UI structure can be managed more efficiently by updating the locators in one place.
+
+If you find yourself reusing elements in more than one test, it is best practice to abstract the locator into a key value pair in a `const` file.
