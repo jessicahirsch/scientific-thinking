@@ -53,8 +53,7 @@ If you recall from Test Scope section, restricting test size becomes beneficial 
 
 **Then** _there is expected behavior_
 
-"And" may be used to denote more complex or supplemental behavior.
-
+"And" may be used to denote more complex or supplemental behavior. "And" can be placed anywhere after the "Given" clause in the test case. It can be used more than once if needed.
 
 **Given** _some condition_
 
