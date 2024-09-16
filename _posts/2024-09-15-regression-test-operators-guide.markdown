@@ -10,6 +10,7 @@ categories: jekyll update
 ### WHAT
 
 **Regression Testing in Theory**
+
 Regression testing evaluates if the system under test has regressed to a devolved, or more primitive, state following a release.
 In good practice, we test the changed area, or the code issued in the release.
 In better practice, we test the changed area and any areas transitively affected by that change.
