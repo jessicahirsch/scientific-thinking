@@ -37,3 +37,6 @@ Perhaps you are accustomed to Quality Assurance engineers performing a regressio
 In many cases, this is done manually, with the Quality Assurance engineer checking your work performs properly against rows of test cases issued by the product’s owner.
 
 The aim is for “quality all the way through.” In theory, we aim for _shifted-left_ testing such that we can go _without_ embedded Quality Assurance engineers. In practice, our regression testing happens at the end of the software development lifecycle (SDL), after the code has already been merged.
+
+Automated regression testing is arguably more repeatable and accurate than a Quality Assurance engineer manually testing your code.
+When done well, they can operate in place of, or as a supplement to, a QA.
