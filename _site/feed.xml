@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/Scientific-Thinking/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Scientific-Thinking/" rel="alternate" type="text/html" /><updated>2024-09-15T18:26:30-07:00</updated><id>http://localhost:4000/Scientific-Thinking/feed.xml</id><title type="html">Scientific Thinking</title><subtitle>A place to publish my professional work. Topics include operator&apos;s guides, testing how-to&apos;s, and other technical writing.</subtitle><entry><title type="html">Regression Test Operator’s Guide</title><link href="http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide.html" rel="alternate" type="text/html" title="Regression Test Operator’s Guide" /><published>2024-09-15T11:18:00-07:00</published><updated>2024-09-15T11:18:00-07:00</updated><id>http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide</id><content type="html" xml:base="http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide.html"><![CDATA[<p><strong>Regression Testing in Theory</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/Scientific-Thinking/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Scientific-Thinking/" rel="alternate" type="text/html" /><updated>2024-09-15T18:29:54-07:00</updated><id>http://localhost:4000/Scientific-Thinking/feed.xml</id><title type="html">Scientific Thinking</title><subtitle>A place to publish my professional work. Topics include operator&apos;s guides, testing how-to&apos;s, and other technical writing.</subtitle><entry><title type="html">Regression Test Operator’s Guide</title><link href="http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide.html" rel="alternate" type="text/html" title="Regression Test Operator’s Guide" /><published>2024-09-15T11:18:00-07:00</published><updated>2024-09-15T11:18:00-07:00</updated><id>http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide</id><content type="html" xml:base="http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide.html"><![CDATA[<p><strong>Regression Testing in Theory</strong></p>
 
 <p>Regression testing evaluates if the system under test has regressed to a devolved, or more primitive, state following a release.
 In good practice, we test the changed area, or the code issued in the release.
@@ -43,6 +43,16 @@ When done well, they can operate in place of, or as a supplement to, a QA.</p>
 <p><strong>Given</strong> <em>some condition</em></p>
 
 <p><strong>When</strong> <em>some action is taken</em></p>
+
+<p><strong>Then</strong> <em>there is expected behavior</em></p>
+
+<p>“And” may be used to denote more complex or supplemental behavior.</p>
+
+<p><strong>Given</strong> <em>some condition</em></p>
+
+<p><strong>When</strong> <em>some action is taken</em></p>
+
+<p><strong>And</strong> <em>some additional action is taken</em></p>
 
 <p><strong>Then</strong> <em>there is expected behavior</em></p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Regression Testing in Theory]]></summary></entry><entry><title type="html">Cypress Operator’s Guide</title><link href="http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/09/cypress-operator's-guide.html" rel="alternate" type="text/html" title="Cypress Operator’s Guide" /><published>2024-09-09T11:18:00-07:00</published><updated>2024-09-09T11:18:00-07:00</updated><id>http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/09/cypress-operator&apos;s-guide</id><content type="html" xml:base="http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/09/cypress-operator&apos;s-guide.html"><![CDATA[<h2 id="cypress-101">Cypress 101</h2>
 <p>Cypress is a friendly, frontend testing tool that resembles legacy testing tools like Selenium. It can test anything that runs in a browser. Published tests may be small and omit any dependencies.</p>

@@ -52,3 +52,14 @@ If you recall from Test Scope section, restricting test size becomes beneficial 
 **When** _some action is taken_
 
 **Then** _there is expected behavior_
+
+"And" may be used to denote more complex or supplemental behavior.
+
+
+**Given** _some condition_
+
+**When** _some action is taken_
+
+**And** _some additional action is taken_
+
+**Then** _there is expected behavior_
