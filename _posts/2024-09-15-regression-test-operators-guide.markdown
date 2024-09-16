@@ -74,3 +74,9 @@ Regression test workspaces may be structured using the page object model. The mo
 The elements that build the behavior are abstracted to corresponding files in the support directory. By centralizing locators within page classes, any changes to the UI structure can be managed more efficiently by updating the locators in one place.
 
 If you find yourself reusing elements in more than one test, it is best practice to abstract the locator into a key value pair in a `const` file.
+
+### Running Tests Locally and Test Development
+
+During test development, we have the advantage of simulating a testing GUI that you can engage with directly. In CI, where our regression tests operate on deployment to production, a GUI is not necessary. No need for deployments. Any environment can be substituted.
+
+This can be achieved using the `--headed` argument.

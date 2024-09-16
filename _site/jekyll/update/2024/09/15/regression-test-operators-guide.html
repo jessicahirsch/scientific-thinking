@@ -117,6 +117,12 @@ When done well, they can operate in place of, or as a supplement to, a QA.</p>
 
 <p>If you find yourself reusing elements in more than one test, it is best practice to abstract the locator into a key value pair in a <code class="language-plaintext highlighter-rouge">const</code> file.</p>
 
+<h3 id="running-tests-locally-and-test-development">Running Tests Locally and Test Development</h3>
+
+<p>During test development, we have the advantage of simulating a testing GUI that you can engage with directly. In CI, where our regression tests operate on deployment to production, a GUI is not necessary. No need for deployments. Any environment can be substituted.</p>
+
+<p>This can be achieved using the <code class="language-plaintext highlighter-rouge">--headed</code> argument.</p>
+
   </div><a class="u-url" href="/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide.html" hidden></a>
 </article>
 
