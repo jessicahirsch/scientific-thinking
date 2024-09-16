@@ -15,3 +15,5 @@ Regression testing evaluates if the system under test has regressed to a devolve
 In good practice, we test the changed area, or the code issued in the release.
 In better practice, we test the changed area and any areas transitively affected by that change.
 In best practice, we test the entire system. Optimally, no change goes untested.
+
+![Test Replay Visual Guide]({{ site.baseurl }}/images/test-pyramid.png)
