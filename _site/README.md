@@ -8,4 +8,4 @@ Run using `bundle exec jekyll serve` in the root directory.
 
 ### Visit
 
-Visit the live site: https://jessicahirsch.github.io/Scientific-Thinking/
+Visit the live site: https://jessicahirsch.github.io/scientific-thinking
