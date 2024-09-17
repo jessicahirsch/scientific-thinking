@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/Scientific-Thinking/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Scientific-Thinking/" rel="alternate" type="text/html" /><updated>2024-09-15T18:52:13-07:00</updated><id>http://localhost:4000/Scientific-Thinking/feed.xml</id><title type="html">Scientific Thinking</title><subtitle>A place to publish my professional work. Topics include operator&apos;s guides, testing how-to&apos;s, and other technical writing.</subtitle><entry><title type="html">Regression Test Operator’s Guide</title><link href="http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide.html" rel="alternate" type="text/html" title="Regression Test Operator’s Guide" /><published>2024-09-15T11:18:00-07:00</published><updated>2024-09-15T11:18:00-07:00</updated><id>http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide</id><content type="html" xml:base="http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/15/regression-test-operators-guide.html"><![CDATA[<h2 id="regression-testing-in-theory">Regression Testing in Theory</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/scientific-thinking/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/scientific-thinking/" rel="alternate" type="text/html" /><updated>2024-09-16T19:30:06-07:00</updated><id>http://localhost:4000/scientific-thinking/feed.xml</id><title type="html">Scientific Thinking</title><subtitle>A place to publish my professional work. Topics include operator&apos;s guides, testing how-to&apos;s, and other technical writing.</subtitle><entry><title type="html">Regression Test Operator’s Guide</title><link href="http://localhost:4000/scientific-thinking/jekyll/update/2024/09/15/regression-test-operators-guide.html" rel="alternate" type="text/html" title="Regression Test Operator’s Guide" /><published>2024-09-15T11:18:00-07:00</published><updated>2024-09-15T11:18:00-07:00</updated><id>http://localhost:4000/scientific-thinking/jekyll/update/2024/09/15/regression-test-operators-guide</id><content type="html" xml:base="http://localhost:4000/scientific-thinking/jekyll/update/2024/09/15/regression-test-operators-guide.html"><![CDATA[<h2 id="regression-testing-in-theory">Regression Testing in Theory</h2>
 
 <p>Regression testing evaluates if the system under test has regressed to a devolved, or more primitive, state following a release.
 In good practice, we test the changed area, or the code issued in the release.
 In better practice, we test the changed area and any areas transitively affected by that change.
 In best practice, we test the entire system. Optimally, no change goes untested.</p>
 
-<p><img src="/Scientific-Thinking/images/test-pyramid.png" alt="Test Pyramid" /></p>
+<p><img src="/scientific-thinking/images/test-pyramid.png" alt="Test Pyramid" /></p>
 
 <p><strong>Test Scope</strong></p>
 
@@ -15,7 +15,7 @@ In best practice, we test the entire system. Optimally, no change goes untested.
 
 <p>I’ve included an excellent diagram from <em>Software Engineering at Google, O’Reilly (2020)</em> that represents the growing complexity of regression tests from the Test Pyramid.</p>
 
-<p><img src="/Scientific-Thinking/images/test-scope.png" alt="Test Scope, Software Engineering at Google (O’Reilly, 215, 2020)" /></p>
+<p><img src="/scientific-thinking/images/test-scope.png" alt="Test Scope, Software Engineering at Google (O’Reilly, 215, 2020)" /></p>
 
 <h2 id="regression-testing-in-general-practice">Regression Testing in General Practice</h2>
 
@@ -72,7 +72,7 @@ When done well, they can operate in place of, or as a supplement to, a QA.</p>
 
 <p>During test development, we have the advantage of simulating a testing GUI that you can engage with directly. In CI, where our regression tests operate on deployment to production, a GUI is not necessary. No need for deployments. Any environment can be substituted.</p>
 
-<p>This can be achieved using the <code class="language-plaintext highlighter-rouge">--headed</code> argument.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Regression Testing in Theory]]></summary></entry><entry><title type="html">Cypress Operator’s Guide</title><link href="http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/09/cypress-operator's-guide.html" rel="alternate" type="text/html" title="Cypress Operator’s Guide" /><published>2024-09-09T11:18:00-07:00</published><updated>2024-09-09T11:18:00-07:00</updated><id>http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/09/cypress-operator&apos;s-guide</id><content type="html" xml:base="http://localhost:4000/Scientific-Thinking/jekyll/update/2024/09/09/cypress-operator&apos;s-guide.html"><![CDATA[<h2 id="cypress-101">Cypress 101</h2>
+<p>This can be achieved using the <code class="language-plaintext highlighter-rouge">--headed</code> argument.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Regression Testing in Theory]]></summary></entry><entry><title type="html">Cypress Operator’s Guide</title><link href="http://localhost:4000/scientific-thinking/jekyll/update/2024/09/09/cypress-operator's-guide.html" rel="alternate" type="text/html" title="Cypress Operator’s Guide" /><published>2024-09-09T11:18:00-07:00</published><updated>2024-09-09T11:18:00-07:00</updated><id>http://localhost:4000/scientific-thinking/jekyll/update/2024/09/09/cypress-operator&apos;s-guide</id><content type="html" xml:base="http://localhost:4000/scientific-thinking/jekyll/update/2024/09/09/cypress-operator&apos;s-guide.html"><![CDATA[<h2 id="cypress-101">Cypress 101</h2>
 <p>Cypress is a friendly, frontend testing tool that resembles legacy testing tools like Selenium. It can test anything that runs in a browser. Published tests may be small and omit any dependencies.</p>
 
 <h3 id="what-does-cypress-offer">What does Cypress Offer?</h3>
@@ -88,7 +88,7 @@ When done well, they can operate in place of, or as a supplement to, a QA.</p>
 
 <p>If your test results are recorded to Cypress Cloud you do not have to worry about manually reproducing bugs. You can replay the failure directly in the Cloud.</p>
 
-<p><img src="/Scientific-Thinking/images/test-replay.png" alt="Test Replay Visual Guide" /></p>
+<p><img src="/scientific-thinking/images/test-replay.png" alt="Test Replay Visual Guide" /></p>
 
 <h3 id="cypress-and-xpaths">Cypress and Xpaths</h3>
 <p>Xpaths are usually long, “stringified” locators used to traverse the DOM tree that composes your website. The problem is that they are highly sensitive to change, meaning that the removal of one node in the DOM tree will likely result in an invalid xpath. This will immediately fail your tests.</p>

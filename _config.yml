@@ -22,7 +22,7 @@ title: Scientific Thinking
 email: jrachelh5@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A place to publish my professional work. Topics include operator's guides, testing how-to's, and other technical writing.
-baseurl: "/Scientific-Thinking" # the subpath of your site, e.g. /blog
+baseurl: "/scientific-thinking" # the subpath of your site, e.g. /blog
 url: "https://jessicahirsch.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: jessicarhirsch
 github_username:  jessicahirsch
