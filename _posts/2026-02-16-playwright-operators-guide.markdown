@@ -54,7 +54,3 @@ A common pattern: in a setup project or a before-all hook, perform API login onc
 
 ### Keeping Secrets Out of Tests
 Put login credentials in environment variables or a `.env` file that is not committed. Use `process.env` in your fixture or config to pass them into the API login step. Never hardcode passwords in the repo.
-
----
-
-A Playwright Operator’s Guide in the same spirit as the Cypress and Regression Test guides: fixtures for structure and reuse, page files for maintainable UI abstraction, and API auth so that tests run quickly and depend on the product, not on the login form.
